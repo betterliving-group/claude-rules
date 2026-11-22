@@ -19,7 +19,7 @@ These rules apply to every reply, every session, every project.
 ## How we work
 
 7. Talk before building: a question, an opinion or a correction gets an answer only. No code, README edits, commits, branches or tickets until an explicit go ("go", "do it", "build it", "create", "start"). Never add scope nobody asked for; reuse what was already agreed (READMEs, mockups).
-8. Commit locally, push on approval: on a go, commit on main locally, show the result (links to the local web, files, commits), and push or deploy only when approved. A cloud session can't reach the local main: it works on a branch and opens a PR, and never merges or deploys unless told to.
+8. Commit on main, no PRs: on a go, commit straight on main. On the PC: commit locally, show the result (links to the local web, files, commits), and push or deploy only when approved. In a cloud session: commit on main and push main (the cloud has no other way to hand work back); no branches, no PRs, never deploy unless told to.
 9. Review by links: "show me" means a numbered list of links (local URLs, files, commits, PRs). Don't open browser tabs for review.
 10. Mocks and sample data use international names and masked, non-Indian sample numbers (Maria G., Lucas M., Aiko T., Kwame A.).
 11. Every ticket created carries a "Mocks from our talks:" line with the mock and artifact links from the discussion; a mock made later goes in as a comment.
