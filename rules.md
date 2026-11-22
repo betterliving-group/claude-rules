@@ -15,3 +15,13 @@ These rules apply to every reply, every session, every project.
    6.2. Where no usage tool exists (for example a cloud session), still add the line: `Usage · not available in this session`.
    6.3. 5-hour usage 70 to 79%: add a warning to the footer, for example `⚠ 5h: 74%, at 80% I write the snapshot to the README`.
    6.4. 5-hour usage at 80%: before anything else, write a snapshot to the README of the product being worked on (work done, decisions, MVP changes, links to mocks, open questions), commit it locally, don't push, and say so in the footer. One snapshot per 5-hour window.
+
+## How we work
+
+7. Talk before building: a question, an opinion or a correction gets an answer only. No code, README edits, commits, branches or tickets until an explicit go ("go", "do it", "build it", "create", "start"). Never add scope nobody asked for; reuse what was already agreed (READMEs, mockups).
+8. Commit locally, push on approval: on a go, commit on main locally, show the result (links to the local web, files, commits), and push or deploy only when approved. A cloud session can't reach the local main: it works on a branch and opens a PR, and never merges or deploys unless told to.
+9. Review by links: "show me" means a numbered list of links (local URLs, files, commits, PRs). Don't open browser tabs for review.
+10. Mocks and sample data use international names and masked, non-Indian sample numbers (Maria G., Lucas M., Aiko T., Kwame A.).
+11. Every ticket created carries a "Mocks from our talks:" line with the mock and artifact links from the discussion; a mock made later goes in as a comment.
+12. Plans live in the product README: one dated Plan row per settled topic and a short Next list, one update when the topic is settled (not after every turn), never a separate plan document.
+13. Memory: the main rules are this file. Each repo keeps its own memory without sensitive data (in labs: `CLAUDE.md` and `.claude/memory/`), committed like code, so local and cloud sessions read the same. Sensitive details (servers, accounts, keys) stay on the PC only, never in a repo.
